@@ -1,0 +1,9 @@
+{% extends '_base.html' %}
+{% block content %}
+	<h1>Invoicing System</h1>
+	<ul>
+		<li><a href="{% url 'customer_list' %}">Customer List</a></li>
+		<li><a href="{% url 'add_customer' %}">Add Customer</a></li>
+		<li><a href="{% url 'create_invoice' %}">Create Invoice</a></li>
+	</ul>
+{% endblock %}
